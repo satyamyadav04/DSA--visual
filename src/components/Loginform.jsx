@@ -102,7 +102,7 @@ function Loginform() {
         </form>
 
         <a href="/signUp">
-          <span>new Here??</span>SingUp
+          <span className=" p-2 rounded-2xl text-white font-semibold text-sm md:text-xl w-[50%] md:w-[30%] shadow-purple-900 shadow-md">New SignUp Here!</span>
         </a>
       </motion.div>
     </motion.div>

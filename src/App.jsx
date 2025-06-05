@@ -7,7 +7,7 @@ import { useState } from "react";
 import SignUp from "./components/SignUp";
 // import Infd from "./Infd";
 import Chat from "./Chat";
-import Feedback from "./components/feedback";
+import Feedback from "./components/Feedback";
 function App() {
   const [algorithm, setAlgorithm] = useState([]);
 

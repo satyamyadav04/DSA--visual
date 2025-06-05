@@ -75,7 +75,7 @@ function Navbar({ algorithm, setAlgorithm }) {
 
   return (
     <>
-      <nav className="pb-2 relative z-50 ">
+      <nav className="pb-2 relative z-50">
         {/* desktop view */}
         <div className="hidden lg:block w-full ">
           <motion.div
@@ -127,7 +127,7 @@ function Navbar({ algorithm, setAlgorithm }) {
                 to="/Feedback"
               >
                 <Activity />
-                &nbsp;<span>Chat</span>
+                &nbsp;<span>FB</span>
               </NavLink>
             </div>
 
@@ -138,6 +138,14 @@ function Navbar({ algorithm, setAlgorithm }) {
               <span>Login</span>&nbsp;
               <LogIn />
             </NavLink>
+
+            {/* <NavLink
+              className="rounded-md p-1 border text-[15px] flex items-center text-blue-500 hover:text-blue-400"
+              to="/Home"
+            >
+              <span>Logout</span>&nbsp;
+              <LogIn />
+            </NavLink> */}
 
             <motion.div
               ref={searchRef}
