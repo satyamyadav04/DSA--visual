@@ -590,7 +590,7 @@ function Home({ setAlgorithm }) {
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-fuchsia-300">
                     {" "}
-                    Dynamic Programming
+                    Dynamic Programming (coming soon)
                   </h2>
                 </div>
                 <span className="px-3 py-1 text-xs font-medium bg-purple-500/20 text-purple-300 rounded-full">
