@@ -994,15 +994,15 @@ function Home({ setAlgorithm }) {
                     Connect
                   </h1>
                   <div className="flex  space-x-5">
-                    <a href="https://github.com/satyamyadav04">
+                    <a href="">
                       {" "}
                       <Github className="bg-gray-800  w-10 h-10 p-2 rounded-md" />{" "}
                     </a>
-                    <a href="https://www.linkedin.com/in/satyam-yadav-738773290/">
+                    <a href="">
                       {" "}
                       <Linkedin className="bg-gray-800  w-10 h-10 p-2 rounded-md" />{" "}
                     </a>
-                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                    <a href="">
                       {" "}
                       <Mail className="bg-gray-800 cursor-pointer w-10 h-10 p-2 rounded-md" />
                     </a>

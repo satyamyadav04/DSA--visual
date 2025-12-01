@@ -41,7 +41,7 @@ function Controller({ input, setInput, speed, setSpeed, isPlaying, setIsPlaying,
           const newStack = [...prevStack]; 
           newStack.pop(); 
           return newStack;
-        });
+        }) ;
     };
 
     const handleListInsert = () => {
