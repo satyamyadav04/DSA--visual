@@ -11,7 +11,7 @@ const App = () => {
 
   // Initialize Groq Client
   const groq = new Groq({
-    apiKey: "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", // Apka Groq API Key
+    apiKey: process.env.KEY, // Apka Groq API Key
     dangerouslyAllowBrowser: true, // Browser me allow karne ke liye
   });
 
