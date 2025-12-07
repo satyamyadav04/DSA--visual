@@ -1,6 +1,7 @@
 // const route = require("express").Router();
 import express from "express";
 const route = express.Router();
+
 // const { registerUser, Login } = require("../controlles/userControler");
 import { registerUser, Login } from "../controlles/userControler.js";
 import {feedBackPost,getRoute} from "../controlles/userControler.js"
